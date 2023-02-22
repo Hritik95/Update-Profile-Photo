@@ -12,7 +12,20 @@
         <div class="card">
             <h1>Hritik Jadhav</h1>
             <p>@hritikjadhav</p>
+            <img src="images/default.png" alt="Profile Photo" id="profile_photo">
+            <label for="input_file">Update Profile Photo</label>
+            <input type="file" accept="image/jpeg, image/jpg, image/png" id="input_file">
         </div>
     </div>
+
+    <script>
+        let set_image = document.getElementById("profile_photo");
+        let inp_file = document.getElementById("input_file");  
+
+        inp_file.onchange = function(){
+            set_image.src = URL.createObjectURL(inp_file.files[0]);
+        }
+    </script>
+
 </body>
 </html>

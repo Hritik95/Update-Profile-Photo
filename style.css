@@ -6,3 +6,59 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: #d1d1d1;
+}
+
+.card{
+    width: 400px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    min-height: 400px;
+}
+
+.card h1{
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.card p{
+    margin-bottom: 30px;
+}
+
+.card img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    background: #d1d1d1;
+    border-radius: 50%;
+}
+
+.card label{
+    margin-top: 30px;
+    background: #e3262c;
+    color: #fff;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card input{
+    display: none;
+}
