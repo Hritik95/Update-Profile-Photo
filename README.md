@@ -1,7 +1,7 @@
 
 # Update Profile Photo
 
-Change profile photo from local file using Javascript.
+Change profile photo from local file using Javascript. Click to see -> https://hritik95.github.io/Update-Profile-Photo/
 
 
 ## Language Used
